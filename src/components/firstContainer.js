@@ -9,12 +9,12 @@ class Firstcontainer extends Component{
         }
     }
     render(){
-        return (<div class='container'>
-            <div class="row justify-content-center">
-                <Toolbar text="Editor" length="col-6"/>
-                <Textarea/>
-            </div>
-        </div>);
+        return (<div class='container-fluid'>
+                     <div class="row justify-content-center">
+                        <Toolbar text="Preview" length="col-6"/>
+                        <Textarea id="text"/>
+                    </div>
+                </div>);
     }
 }
 
