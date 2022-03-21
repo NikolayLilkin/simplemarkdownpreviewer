@@ -1,13 +1,122 @@
+html{
+  background-color: #87b5b5;
+}
 .App {
   text-align: center;
   width: 100%;
   height: 100%;
   min-height: 100vh;
-  background-color: #87b5b5;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
   text-align: left;
+}
+.container-fluid{
+  justify-items: center;
+}
+#secondContainder{
+  position: absolute;
+}
+.image{
+  margin-right:5px;
+}
+#toolbar{
+  display: flex;
+  align-items: center;
+  background-color: #4aa3a3;
+  padding: 0.3rem;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  font-family: Russo One;
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 0;
+  resize: vertical;
+  outline: none;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 0.875rem;
+}
+.container-fluid{
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+#secondContainder{
+  padding-top: 0px;
+}
+#previewText{
+  padding-left:0;
+  padding-right:0;
+}
+#preview{
+  padding-top:0;
+  padding-left: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-right: 0.3rem;
+  background-color: #c0d8d8;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+#FreeCodeCampImage{
+  width: 100%;
+}
+#editor{
+  width: 100%;
+  min-height: 200px;
+  margin-bottom: -5px;
+  resize: vertical;
+  outline: none;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 0.875rem;
+}
+textarea {
+  writing-mode: horizontal-tb !important;
+  font-family: monospace;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  resize: auto;
+  cursor: text;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  column-count: initial !important;
+  margin: 0em;
+  height: 200px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+  padding: 2px;
+  background-color: #c0d8d8;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+.fa-arrows-alt{
+  display: flex;
+  justify-content: flex-end;
+}
+.col-11{
+  font-family: "Russo One";
+  font-size: 1.0rem;
+  color: black;   
+  font-weight: 600;
+
+}
+.col-6{
+  padding-left:0;
+  padding-right:0;
 }

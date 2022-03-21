@@ -1,9 +1,12 @@
 import './App.css';
-import './components/firstContainer.js'
+import Firstcontainer from './components/Firstcontainer';
+import Secondcontainer from './components/Secondcontainer';
+
 function App() {
   return (
     <div className="App">
-      <firstContainer/>
+      <Firstcontainer/>
+      <Secondcontainer/>
     </div>
   );
 }

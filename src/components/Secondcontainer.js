@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-class Firstcontainer extends Component {
+class Secondcontainer extends Component {
   render() {
       return(
       <div>
@@ -7,5 +7,5 @@ class Firstcontainer extends Component {
       </div>
       );
   }
-};
-export default Firstcontainer;
+}
+export default Secondcontainer;
