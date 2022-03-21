@@ -9,7 +9,7 @@ class PreviewText extends Component {
     }
     render() {
         return (
-            <div class="col-8" id="previewText">
+            <div className="col-8" id="previewText">
                 <div id="preview">
                     <h1>My name is Nikolay</h1>
                 </div>
