@@ -5,7 +5,7 @@ class Textarea extends Component {
         return (
             <div className="row justify-content-center" id="smallerPadding">
                 <div className="col-6" id="smallerPadding">
-                    <textarea id="editor" style={{height: 200}} className="col-6">
+                    <textarea id="editor" style={{height: 200}} className="col-6" type="text" defaultValue={this.props.text}>
                     </textarea>
                 </div>
             </div>
