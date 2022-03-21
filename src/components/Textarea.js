@@ -9,8 +9,8 @@ class Textarea extends Component {
     }
     render(){
         return (
-            <div class="row justify-content-center">
-                <div class="col-6">
+            <div class="row justify-content-center" id="smallerPadding">
+                <div class="col-6" id="smallerPadding">
                     <textarea id="editor" type="text" style={{height: 200}} class="col-6">
                         Hello my name is
                     </textarea>

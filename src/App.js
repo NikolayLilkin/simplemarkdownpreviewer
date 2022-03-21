@@ -2,13 +2,23 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Firstcontainer from './components/Firstcontainer';
 import Secondcontainer from './components/Secondcontainer';
-function App() {
-  return (
-    <div className="App">
-      <Firstcontainer/>
-      <Secondcontainer/>
-    </div>
-  );
+import React, {Component} from 'react';
+
+class App extends Component {
+  constructor(props){
+    super(props);
+    this.state= {
+    
+    }
+  }
+  render() {
+    return(
+        <div className="App">
+          <Firstcontainer/>
+          <Secondcontainer/>
+        </div>
+      );
+  }
 }
 
 export default App;

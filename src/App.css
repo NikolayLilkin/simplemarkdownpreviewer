@@ -16,8 +16,8 @@ html{
 .container-fluid{
   justify-items: center;
 }
-#secondContainder{
-  position: absolute;
+#firstContainer{
+  margin-top: 10px;
 }
 .image{
   margin-right:5px;
@@ -120,3 +120,17 @@ textarea {
   padding-left:0;
   padding-right:0;
 }
+#smallerPadding{
+  padding-left:0px;
+  padding-right:0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+a svg{
+  color:black;
+  font-weight: 200;
+}
+a:hover svg{
+  color: rgb(87, 226, 177);
+}
+
