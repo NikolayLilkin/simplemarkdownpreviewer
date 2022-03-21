@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class Firstcontainer extends Component{
+class Secondcontainer extends Component{
     constructor(props){
         super(props);
         this.state = {
@@ -12,4 +12,4 @@ class Firstcontainer extends Component{
     }
 }
 
-export default Firstcontainer;
+export default Secondcontainer;
