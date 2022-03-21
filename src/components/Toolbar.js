@@ -9,7 +9,7 @@ class Toolbar extends Component {
     }
     render (){
         return (
-            <div class="col-6" id="toolbar">
+            <div class={this.props.length} id="toolbar">
                 <div class="col-11">
                     <img src="https://gists.rawgit.com/Deftwun/e3756a8b518cbb354425/raw/6584db8babd6cbc4ecb35ed36f0d184a506b979e/free-code-camp-logo.svg" width="20.58" height="16" class="image"/>
                     {this.props.text}   

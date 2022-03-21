@@ -9,9 +9,9 @@ class Firstcontainer extends Component{
         }
     }
     render(){
-        return (<div class='container-fluid'>
+        return (<div class='container'>
             <div class="row justify-content-center">
-                <Toolbar text="Editor"/>
+                <Toolbar text="Editor" length="col-6"/>
                 <Textarea/>
             </div>
         </div>);
