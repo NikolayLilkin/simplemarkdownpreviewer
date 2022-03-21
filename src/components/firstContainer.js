@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-
+import Toolbar from './Toolbar';
+import Textarea from './Textarea';
 class Firstcontainer extends Component{
     constructor(props){
         super(props);
@@ -8,7 +9,12 @@ class Firstcontainer extends Component{
         }
     }
     render(){
-        return (<div><h1>My name is Nikolay</h1></div>);
+        return (<div class='container-fluid'>
+            <div class="row justify-content-center">
+                <Toolbar text="Editor"/>
+                <Textarea/>
+            </div>
+        </div>);
     }
 }
 

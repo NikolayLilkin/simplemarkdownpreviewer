@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import Toolbar from './Toolbar'
+import PreviewText from './PreviewText';
 
 class Secondcontainer extends Component{
     constructor(props){
@@ -8,7 +10,12 @@ class Secondcontainer extends Component{
         }
     }
     render(){
-        return (<div><h1>My name is Nikolay</h1></div>);
+        return (<div class='container-fluid'>
+        <div class="row justify-content-center">
+            <Toolbar text="Preview"/>
+            <PreviewText/>
+        </div>
+    </div>);
     }
 }
 
