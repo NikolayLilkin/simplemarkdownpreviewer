@@ -52,14 +52,15 @@ html{
   padding-right:0;
 }
 #preview{
-  padding-top:0;
-  padding-left: 0.3rem;
-  padding-bottom: 0.3rem;
-  padding-right: 0.3rem;
+  padding: 0 1rem;
   min-height: 200px;
+  height: fit-content;
   background-color: #c0d8d8;
   border: 1px solid #1d2f2f;
   box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+#preview img{
+  width:-webkit-fill-available;;
 }
 #FreeCodeCampImage{
   width: 100%;
@@ -141,5 +142,18 @@ button{
 }
 #firstContainer{
   padding-bottom: 10px;
+}
+pre {
+  display: block;
+  overflow: auto;
+  background: white;
+  padding: 5px;
+  line-height: 1.2;
+}
+code {
+  background: white;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-family: monospace;
 }
 

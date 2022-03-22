@@ -25,7 +25,6 @@ class Toolbar extends Component {
 
     toggle(event){
         event.preventDefault();
-        console.log(this.props.buttonNumber);
         if(this.props.buttonNumber===1){
             this.props.toggleFirstcontainer();
         }
