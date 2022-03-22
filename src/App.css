@@ -127,11 +127,19 @@ textarea {
   margin-left: 0px;
   margin-right: 0px;
 }
-a svg{
+button svg{
   color:black;
-  font-weight: 200;
 }
-a:hover svg{
+button:hover svg{
   color: rgb(87, 226, 177);
+}
+button{
+  color: rgb(87, 226, 177);
+}
+.btn {
+  padding:0px 0px 0px 0px;
+}
+#firstContainer{
+  padding-bottom: 10px;
 }
 

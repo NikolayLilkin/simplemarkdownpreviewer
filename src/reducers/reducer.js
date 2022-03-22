@@ -2,7 +2,7 @@ const reducer = (state = {toggle:0},action) => {
     switch (action.type) {
         case "toggleFirstcontainer":
         return {
-            toggle: 1
+            toggle: state.toggle + 1
             };
         case "toggleSecondcontainer":
         return {

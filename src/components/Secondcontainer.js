@@ -12,7 +12,7 @@ class Secondcontainer extends Component{
     render(){
         return (<div className='container-fluid'>
         <div className="row justify-content-center">
-            <Toolbar text="Preview" length="col-8"/>
+            <Toolbar text="Preview" length="col-8" />
             <PreviewText/>
         </div>
     </div>);
