@@ -24,7 +24,7 @@ class App extends Component {
         <div className="App">
           {(this.props.toggle.toggle === 0) ? (<div><Firstcontainer height={200} ToggleDown={true}/><Secondcontainer ToggleDown={true}/></div>):
            (this.props.toggle.toggle === 1) ? (<Firstcontainer height={'100vh'} ToggleDown={false}/>):
-           (<Secondcontainer height={'100%'} ToggleDown={false}/>)}        
+           (<Secondcontainer height={'100vh'} ToggleDown={false}/>)}        
       </div>
       );
   }

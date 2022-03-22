@@ -1,4 +1,4 @@
-const reducer = (state = {toggle: 0,first: true,second: true, text:"Hello"},action) => {
+const reducer = (state = {toggle: 0,first: true,second: true, text:"# Welcome to my React Markdown Previewer!"},action) => {
     switch (action.type) {
         case "toggleFirstcontainer":
             return {
