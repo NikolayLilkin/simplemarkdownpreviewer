@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/NikolayLilkin/simplemarkdownpreviewer.git/static/css/main.6e9e8196.css",
-    "main.js": "/NikolayLilkin/simplemarkdownpreviewer.git/static/js/main.778a1827.js",
-    "static/js/787.28cb0dcd.chunk.js": "/NikolayLilkin/simplemarkdownpreviewer.git/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/NikolayLilkin/simplemarkdownpreviewer.git/index.html",
-    "main.6e9e8196.css.map": "/NikolayLilkin/simplemarkdownpreviewer.git/static/css/main.6e9e8196.css.map",
-    "main.778a1827.js.map": "/NikolayLilkin/simplemarkdownpreviewer.git/static/js/main.778a1827.js.map",
-    "787.28cb0dcd.chunk.js.map": "/NikolayLilkin/simplemarkdownpreviewer.git/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/NikolayLilkin/simplemarkdownpreviewer/static/css/main.6e9e8196.css",
+    "main.js": "/NikolayLilkin/simplemarkdownpreviewer/static/js/main.1b179421.js",
+    "static/js/787.28cb0dcd.chunk.js": "/NikolayLilkin/simplemarkdownpreviewer/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/NikolayLilkin/simplemarkdownpreviewer/index.html",
+    "main.6e9e8196.css.map": "/NikolayLilkin/simplemarkdownpreviewer/static/css/main.6e9e8196.css.map",
+    "main.1b179421.js.map": "/NikolayLilkin/simplemarkdownpreviewer/static/js/main.1b179421.js.map",
+    "787.28cb0dcd.chunk.js.map": "/NikolayLilkin/simplemarkdownpreviewer/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e9e8196.css",
-    "static/js/main.778a1827.js"
+    "static/js/main.1b179421.js"
   ]
 }
