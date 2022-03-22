@@ -1,5 +1,4 @@
 import './App.css';
-import { Provider } from 'react-redux';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Firstcontainer from './components/Firstcontainer';
 import Secondcontainer from './components/Secondcontainer';
@@ -7,7 +6,7 @@ import React, {Component} from 'react';
 import { connect } from 'react-redux';
 
 const mapStateToProps = (state) => {
-  return { toggle: state.toggle}
+  return { toggle: state}
 };
 
 const mapDispatchToProps = (dispatch) => {
@@ -21,11 +20,12 @@ const mapDispatchToProps = (dispatch) => {
 
 class App extends Component {
   render() {
-    console.log(this.props.toggle)
+    console.log(this.props.toggle);
     return(
         <div className="App">
-          {this.props.toggle < 1 ? (<div><Firstcontainer height={200} ToggleDown={true}/><Secondcontainer ToggleDown={true}/></div>):
-           <Firstcontainer height={'100vh'} ToggleDown={false}/>}          
+          {(this.props.toggle.toggle === 0) ? (<div><Firstcontainer height={200} ToggleDown={true}/><Secondcontainer ToggleDown={true}/></div>):
+           (this.props.toggle.toggle === 1) ? (<Firstcontainer height={'100vh'} ToggleDown={false}/>):
+           (<Secondcontainer height={'100vh'} ToggleDown={false}/>)}        
       </div>
       );
   }

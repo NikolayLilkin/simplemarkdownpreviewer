@@ -1,15 +1,4 @@
 import React, {Component} from 'react';
-import {connect} from 'react-redux';
-const mapStateToProps = (state) => {
-    return { toggle: state.toggle}
-  };
-const mapDispatchToProps = (dispatch) => {
-    return {
-      toggleFirstcontainer: () => dispatch({type: 'toggleFirstcontainer'}),
-      toggleSecondcontainer: () => dispatch({type: 'toggleSecondcontainer'}),
-      toggleUp: () => dispatch({type:'toggleUp'}),
-    }
-};
 
 class Textarea extends Component {
     render(){
@@ -23,4 +12,4 @@ class Textarea extends Component {
         );
     }
 }
-export default connect(mapStateToProps,mapDispatchToProps)(Textarea);
+export default (Textarea);

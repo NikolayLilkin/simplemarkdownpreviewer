@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
 const mapStateToProps = (state) => {
-    return { toggle: state.toggle}
+    return { toggle: state}
   };
 const mapDispatchToProps = (dispatch) => {
     return {
@@ -25,7 +25,13 @@ class Toolbar extends Component {
 
     toggle(event){
         event.preventDefault();
-        this.props.toggleFirstcontainer();
+        console.log(this.props.buttonNumber);
+        if(this.props.buttonNumber===1){
+            this.props.toggleFirstcontainer();
+        }
+        else{
+            this.props.toggleSecondcontainer();
+        }
     }
     render (){
         return (
@@ -45,7 +51,7 @@ class Toolbar extends Component {
                 :
                 <div className="col-1 d-flex justify-content-end" id="arrow">
                     <button className="btn" onClick={this.toggleIn}>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrows-angle-contract" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrows-angle-contract" viewBox="0 0 16 16">
                             <path fillRule="evenodd" d="M.172 15.828a.5.5 0 0 0 .707 0l4.096-4.096V14.5a.5.5 0 1 0 1 0v-3.975a.5.5 0 0 0-.5-.5H1.5a.5.5 0 0 0 0 1h2.768L.172 15.121a.5.5 0 0 0 0 .707zM15.828.172a.5.5 0 0 0-.707 0l-4.096 4.096V1.5a.5.5 0 1 0-1 0v3.975a.5.5 0 0 0 .5.5H14.5a.5.5 0 0 0 0-1h-2.768L15.828.879a.5.5 0 0 0 0-.707z"/>
                     </svg>
                     </button>
