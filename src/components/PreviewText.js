@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
-import marked from 'marked';
+
 
 const mapStateToProps = (state) => {
     return { toggle: state}
